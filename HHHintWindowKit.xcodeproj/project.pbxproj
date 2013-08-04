@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0BED9A317AEA0DC00E5692D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BED9A217AEA0DC00E5692D /* UIKit.framework */; };
+		C0BED9A517AEA0DC00E5692D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BED9A417AEA0DC00E5692D /* Foundation.framework */; };
+		C0BED9A717AEA0DC00E5692D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BED9A617AEA0DC00E5692D /* CoreGraphics.framework */; };
+		C0BED9AD17AEA0DC00E5692D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0BED9AB17AEA0DC00E5692D /* InfoPlist.strings */; };
+		C0BED9AF17AEA0DC00E5692D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BED9AE17AEA0DC00E5692D /* main.m */; };
+		C0BED9B317AEA0DC00E5692D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BED9B217AEA0DC00E5692D /* AppDelegate.m */; };
+		C0BED9B517AEA0DC00E5692D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C0BED9B417AEA0DC00E5692D /* Default.png */; };
+		C0BED9B717AEA0DC00E5692D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0BED9B617AEA0DC00E5692D /* Default@2x.png */; };
+		C0BED9B917AEA0DC00E5692D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0BED9B817AEA0DC00E5692D /* Default-568h@2x.png */; };
+		C0BED9C117AEA0F900E5692D /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BED9C017AEA0F900E5692D /* DemoViewController.m */; };
+		C0BED9CC17AEA1FB00E5692D /* HHHintPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BED9C417AEA1FB00E5692D /* HHHintPickerViewController.m */; };
+		C0BED9CD17AEA1FB00E5692D /* HHHintBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BED9C717AEA1FB00E5692D /* HHHintBaseViewController.m */; };
+		C0BED9CE17AEA1FB00E5692D /* HHHintConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BED9C917AEA1FB00E5692D /* HHHintConfiguration.m */; };
+		C0BED9CF17AEA1FB00E5692D /* HHHintWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BED9CB17AEA1FB00E5692D /* HHHintWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0BED99F17AEA0DC00E5692D /* HHHintWindowKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHHintWindowKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BED9A217AEA0DC00E5692D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C0BED9A417AEA0DC00E5692D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0BED9A617AEA0DC00E5692D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C0BED9AA17AEA0DC00E5692D /* HHHintWindowKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HHHintWindowKit-Info.plist"; sourceTree = "<group>"; };
+		C0BED9AC17AEA0DC00E5692D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0BED9AE17AEA0DC00E5692D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0BED9B017AEA0DC00E5692D /* HHHintWindowKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HHHintWindowKit-Prefix.pch"; sourceTree = "<group>"; };
+		C0BED9B117AEA0DC00E5692D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0BED9B217AEA0DC00E5692D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0BED9B417AEA0DC00E5692D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C0BED9B617AEA0DC00E5692D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C0BED9B817AEA0DC00E5692D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C0BED9BF17AEA0F900E5692D /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		C0BED9C017AEA0F900E5692D /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		C0BED9C317AEA1FB00E5692D /* HHHintPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHHintPickerViewController.h; sourceTree = "<group>"; };
+		C0BED9C417AEA1FB00E5692D /* HHHintPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHHintPickerViewController.m; sourceTree = "<group>"; };
+		C0BED9C617AEA1FB00E5692D /* HHHintBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHHintBaseViewController.h; sourceTree = "<group>"; };
+		C0BED9C717AEA1FB00E5692D /* HHHintBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHHintBaseViewController.m; sourceTree = "<group>"; };
+		C0BED9C817AEA1FB00E5692D /* HHHintConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHHintConfiguration.h; sourceTree = "<group>"; };
+		C0BED9C917AEA1FB00E5692D /* HHHintConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHHintConfiguration.m; sourceTree = "<group>"; };
+		C0BED9CA17AEA1FB00E5692D /* HHHintWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHHintWindow.h; sourceTree = "<group>"; };
+		C0BED9CB17AEA1FB00E5692D /* HHHintWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHHintWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0BED99C17AEA0DC00E5692D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BED9A317AEA0DC00E5692D /* UIKit.framework in Frameworks */,
+				C0BED9A517AEA0DC00E5692D /* Foundation.framework in Frameworks */,
+				C0BED9A717AEA0DC00E5692D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0BED99617AEA0DC00E5692D = {
+			isa = PBXGroup;
+			children = (
+				C0BED9A817AEA0DC00E5692D /* HHHintWindowKit */,
+				C0BED9A117AEA0DC00E5692D /* Frameworks */,
+				C0BED9A017AEA0DC00E5692D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0BED9A017AEA0DC00E5692D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0BED99F17AEA0DC00E5692D /* HHHintWindowKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0BED9A117AEA0DC00E5692D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0BED9A217AEA0DC00E5692D /* UIKit.framework */,
+				C0BED9A417AEA0DC00E5692D /* Foundation.framework */,
+				C0BED9A617AEA0DC00E5692D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0BED9A817AEA0DC00E5692D /* HHHintWindowKit */ = {
+			isa = PBXGroup;
+			children = (
+				C0BED9C217AEA1FB00E5692D /* HHHintWindowExtend */,
+				C0BED9C517AEA1FB00E5692D /* HHHintWindow */,
+				C0BED9B117AEA0DC00E5692D /* AppDelegate.h */,
+				C0BED9B217AEA0DC00E5692D /* AppDelegate.m */,
+				C0BED9BF17AEA0F900E5692D /* DemoViewController.h */,
+				C0BED9C017AEA0F900E5692D /* DemoViewController.m */,
+				C0BED9A917AEA0DC00E5692D /* Supporting Files */,
+			);
+			path = HHHintWindowKit;
+			sourceTree = "<group>";
+		};
+		C0BED9A917AEA0DC00E5692D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0BED9AA17AEA0DC00E5692D /* HHHintWindowKit-Info.plist */,
+				C0BED9AB17AEA0DC00E5692D /* InfoPlist.strings */,
+				C0BED9AE17AEA0DC00E5692D /* main.m */,
+				C0BED9B017AEA0DC00E5692D /* HHHintWindowKit-Prefix.pch */,
+				C0BED9B417AEA0DC00E5692D /* Default.png */,
+				C0BED9B617AEA0DC00E5692D /* Default@2x.png */,
+				C0BED9B817AEA0DC00E5692D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0BED9C217AEA1FB00E5692D /* HHHintWindowExtend */ = {
+			isa = PBXGroup;
+			children = (
+				C0BED9C317AEA1FB00E5692D /* HHHintPickerViewController.h */,
+				C0BED9C417AEA1FB00E5692D /* HHHintPickerViewController.m */,
+			);
+			path = HHHintWindowExtend;
+			sourceTree = "<group>";
+		};
+		C0BED9C517AEA1FB00E5692D /* HHHintWindow */ = {
+			isa = PBXGroup;
+			children = (
+				C0BED9C617AEA1FB00E5692D /* HHHintBaseViewController.h */,
+				C0BED9C717AEA1FB00E5692D /* HHHintBaseViewController.m */,
+				C0BED9C817AEA1FB00E5692D /* HHHintConfiguration.h */,
+				C0BED9C917AEA1FB00E5692D /* HHHintConfiguration.m */,
+				C0BED9CA17AEA1FB00E5692D /* HHHintWindow.h */,
+				C0BED9CB17AEA1FB00E5692D /* HHHintWindow.m */,
+			);
+			path = HHHintWindow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0BED99E17AEA0DC00E5692D /* HHHintWindowKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0BED9BC17AEA0DC00E5692D /* Build configuration list for PBXNativeTarget "HHHintWindowKit" */;
+			buildPhases = (
+				C0BED99B17AEA0DC00E5692D /* Sources */,
+				C0BED99C17AEA0DC00E5692D /* Frameworks */,
+				C0BED99D17AEA0DC00E5692D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HHHintWindowKit;
+			productName = HHHintWindowKit;
+			productReference = C0BED99F17AEA0DC00E5692D /* HHHintWindowKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0BED99717AEA0DC00E5692D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ilingaohe;
+			};
+			buildConfigurationList = C0BED99A17AEA0DC00E5692D /* Build configuration list for PBXProject "HHHintWindowKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C0BED99617AEA0DC00E5692D;
+			productRefGroup = C0BED9A017AEA0DC00E5692D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0BED99E17AEA0DC00E5692D /* HHHintWindowKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0BED99D17AEA0DC00E5692D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BED9AD17AEA0DC00E5692D /* InfoPlist.strings in Resources */,
+				C0BED9B517AEA0DC00E5692D /* Default.png in Resources */,
+				C0BED9B717AEA0DC00E5692D /* Default@2x.png in Resources */,
+				C0BED9B917AEA0DC00E5692D /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0BED99B17AEA0DC00E5692D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BED9AF17AEA0DC00E5692D /* main.m in Sources */,
+				C0BED9B317AEA0DC00E5692D /* AppDelegate.m in Sources */,
+				C0BED9C117AEA0F900E5692D /* DemoViewController.m in Sources */,
+				C0BED9CC17AEA1FB00E5692D /* HHHintPickerViewController.m in Sources */,
+				C0BED9CD17AEA1FB00E5692D /* HHHintBaseViewController.m in Sources */,
+				C0BED9CE17AEA1FB00E5692D /* HHHintConfiguration.m in Sources */,
+				C0BED9CF17AEA1FB00E5692D /* HHHintWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0BED9AB17AEA0DC00E5692D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0BED9AC17AEA0DC00E5692D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0BED9BA17AEA0DC00E5692D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0BED9BB17AEA0DC00E5692D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0BED9BD17AEA0DC00E5692D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HHHintWindowKit/HHHintWindowKit-Prefix.pch";
+				INFOPLIST_FILE = "HHHintWindowKit/HHHintWindowKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C0BED9BE17AEA0DC00E5692D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HHHintWindowKit/HHHintWindowKit-Prefix.pch";
+				INFOPLIST_FILE = "HHHintWindowKit/HHHintWindowKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0BED99A17AEA0DC00E5692D /* Build configuration list for PBXProject "HHHintWindowKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0BED9BA17AEA0DC00E5692D /* Debug */,
+				C0BED9BB17AEA0DC00E5692D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0BED9BC17AEA0DC00E5692D /* Build configuration list for PBXNativeTarget "HHHintWindowKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0BED9BD17AEA0DC00E5692D /* Debug */,
+				C0BED9BE17AEA0DC00E5692D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0BED99717AEA0DC00E5692D /* Project object */;
+}
