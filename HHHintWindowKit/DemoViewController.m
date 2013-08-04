@@ -56,7 +56,7 @@
 #pragma mark -- UIAction
 - (void)handleBtnOneAction:(id)sender
 {
-  //
+  //显示一个UIWindow中提示UIPickerView选择的例子
   NSArray *FirstComponent = @[@"FPick1",@"FPick2",@"FPickT3"];
   HHHintPickerViewDataUnit *FirstDataUnit = [[HHHintPickerViewDataUnit alloc] init];
   FirstDataUnit.componentData = FirstComponent;

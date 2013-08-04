@@ -8,7 +8,7 @@
 
 #import "HHHintBaseViewController.h"
 
-//使用Window进行Hint显示的ViewController，这个类实现Picker的效果
+//使用Window进行Hint显示的ViewController，这个类实现提示Picker选择的效果
 
 //定义Block：typedef returnType(^ReturnTypeParamTypeBlock)(ParamType);
 typedef void(^VoidVoidBlock)(void);
