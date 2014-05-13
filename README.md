@@ -5,7 +5,7 @@ HHHintWindow
 
 iOS上显示用于提示的Hint内容有可以有两种方式。第一种方式为创建UIView，然后以addSubview的方式添加到当前的View中进行显示，如[HHHintView](https://github.com/ilingaohe/HHHintView)中的实现。第二种方式为创建UIViewController，然后作为新建的UIWindow的rootViewController，再通过UIWindow的makeKeyAndVisible的方式进行显示。
 
-HHHintWindow是第二种方式即以UIWindow的方式进行Hint提示的一种是实现。
+[HHHintWindow](https://github.com/ilingaohe/HHHintWindow)是第二种方式即以UIWindow的方式进行Hint提示的一种是实现。
 
 ###使用要求和方式：
 
